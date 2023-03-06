@@ -6,7 +6,6 @@ public class IsPrime {
 		//2 3 5 7 11 13 17 19 23 
 		int num = 97;
 		int remainder=0;
-		
 		for (int i = 2; i < num; i++) {
 			remainder = num%i;
 //			System.out.println(i+"-"+remainder);
